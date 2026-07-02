@@ -1,93 +1,165 @@
-# Free React / Next.js landing page template
+# Open React / Next.js Landing Page (Enhanced)
 
-![Open React / Next.js template preview](https://github.com/user-attachments/assets/522a5e46-2a0e-48ca-80eb-87c7fa58f3ea)
+> An enhanced version of the original **Open React / Next.js Landing Page** template by **Cruip**, updated with modern dependencies, code refactoring, reusable styling utilities, and various improvements for production-ready development.
 
-**Open** is a **free React / Next.js landing page template built with Tailwind CSS** for developers/makers who want to create a quick and professional landing page for their open source projects, SaaS products, online services, and more.
+![Preview](./public/images/og-image.jpg)
 
-**UPDATE 2025-02-04** Added Tailwind v4 support!
+## 🚀 Live Demo
 
-Use it for whatever you want, and be sure to reach us out on [Twitter](https://twitter.com/Cruip_com) if you build anything cool/useful with it.
+**Demo:** https://open-react-enhanced.vercel.app
 
-Created and maintained with ❤️ by [Cruip.com](https://cruip.com).
+**GitHub Repository:** https://github.com/basitdev44/open-react-enhanced
 
-_Version 1.0.0 built with the Cruip CSS is available [here](https://github.com/cruip/open-react-template/releases/tag/1.0.0)._
-_Version 2.0.3 built with Tailwind CSS and React + Vite is available [here](https://github.com/cruip/open-react-template/releases/tag/2.0.3)._
-_Version 3.3.0 (before redesign) built with Tailwind CSS and Next.js is available [here](https://github.com/cruip/open-react-template/releases/tag/3.3.0)._
+---
 
-## Live demo
+## 📖 Overview
 
-Check the live demo here 👉️ [https://open.cruip.com/](https://open.cruip.com/)
+This project is based on the **Open React / Next.js Landing Page** template by **Cruip**. It has been modernized and refactored to improve maintainability, browser compatibility, and developer experience while preserving the original design.
 
-## Open PRO
+The goal of this repository is to provide a clean, production-ready starter for SaaS products, startups, AI products, agencies, and modern business websites.
 
-[![Open Pro](https://github.com/user-attachments/assets/2062c728-95f1-4d59-aa2d-d63556f625d5)](https://cruip.com/)
+---
 
-## Design files
+## ✨ Enhancements
 
-If you need the design files, you can download them from Figma's Community 👉 https://bit.ly/401KSUS
+Compared to the original template, this version includes:
 
-## Usage
+- ✅ Updated project dependencies
+- ✅ Improved compatibility with the latest Next.js and React versions
+- ✅ Refactored reusable components
+- ✅ Replaced complex Tailwind CSS arbitrary values with reusable CSS utility classes
+- ✅ Centralized reusable visual effects into shared CSS
+- ✅ Improved code readability and maintainability
+- ✅ Fixed browser rendering issues for CSS masks and gradients
+- ✅ Optimized component styling
+- ✅ Improved project structure and code organization
+- ✅ General bug fixes and code cleanup
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Additional improvements and features will continue to be added over time.
 
-### Getting Started
+---
 
-First, run the development server:
+## 🛠 Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS v4
+- App Router
+- ESLint
+
+---
+
+## 📦 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/basitdev44/open-react-enhanced.git
+```
+
+Navigate to the project:
+
+```bash
+cd open-react-enhanced
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-pnpm dev (recommended)
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+app/
+components/
+public/
+styles/
+utils/
+```
 
-### Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🎨 Styling Improvements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project has been refactored to minimize repeated Tailwind CSS arbitrary values by extracting reusable visual effects into shared utility classes.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Current reusable effects include:
 
-### Deploy on Vercel
+- Generic gradient borders
+- Indigo gradient borders
+- Shared hover background animations
+- Reusable backdrop blur effects
+- Common button styling utilities
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This approach improves readability, maintainability, and scalability across the project.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
 
-### Support notes
+## 📈 Roadmap
 
-This template has been developed with the App Router (`app`) and React Server Components. If you’re unfamiliar with these beta features, you can find more information about them on the Next.js beta documentation page. So, please note that any request dealing with React (e.g. extra features, customisations, et cetera) is to be considered out of the support scope.
+Planned improvements include:
 
-For more information about what support covers, please see our (FAQs)[https://cruip.com/faq/].
+- Additional landing page sections
+- Dark/Light mode support
+- Accessibility enhancements
+- Animation improvements
+- More reusable UI components
+- Performance optimizations
+- Additional customization options
 
-## Credits
+---
 
-- [Nucleo](https://nucleoapp.com/)
+## 🙌 Credits
 
-## Terms and License
+This project is based on the **Open React / Next.js Landing Page** template created by **Cruip**.
 
-- Released under the [GPL](https://www.gnu.org/licenses/gpl-3.0.html).
-- Copyright 2024 [Cruip](https://cruip.com/).
-- Use it for personal and commercial projects, but please don’t republish, redistribute, or resell the template.
-- Attribution is not required, although it is really appreciated.
+**Original Repository**
 
-## About Us
+https://github.com/cruip/open-react-template
 
-We're an Italian developer/designer duo creating high-quality design/code resources for developers, makers, and startups.
+**Official Website**
 
-## Stay in the loop
+https://cruip.com/
 
-If you would like to know when we release new resources, you can follow [@pacovitiello](https://x.com/pacovitiello) and [@DavidePacilio](https://x.com/DavidePacilio) on X, or you can subscribe to our [newsletter](https://cruip.com/newsletter/).
+This repository contains additional enhancements, refactoring, maintenance, compatibility updates, and ongoing improvements by **Muhammad Basit**.
+
+---
+
+## 📄 License
+
+This project follows the same **GPL-3.0 License** as the original repository.
+
+Please refer to the original project for complete licensing details.
+
+---
+
+## 👨‍💻 Maintained By
+
+**Muhammad Basit**
+
+🌐 Portfolio: https://devcoder.space
+
+💼 LinkedIn: https://www.linkedin.com/in/basitdevcoder/
+
+🐙 GitHub: https://github.com/basitdev44?tab=repositories
+
+---
+
+If you find this project useful, please consider giving it a ⭐ on GitHub.
