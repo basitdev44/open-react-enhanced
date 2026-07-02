@@ -2,7 +2,7 @@
 
 > An enhanced version of the original **Open React / Next.js Landing Page** template by **Cruip**, updated with modern dependencies, code refactoring, reusable styling utilities, and various improvements for production-ready development.
 
-![Preview](./public/images/og-image.jpg)
+![Preview](./public/images/og-image.png)
 
 ## 🚀 Live Demo
 
