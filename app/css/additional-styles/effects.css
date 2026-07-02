@@ -1,0 +1,87 @@
+/* ==========================================
+   Generic Gradient Border (Gray) - Header
+========================================== */
+
+.gradient-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  pointer-events: none;
+
+  background: linear-gradient(
+      to right,
+      var(--color-gray-800),
+      var(--color-gray-700),
+      var(--color-gray-800)
+    )
+    border-box;
+
+  mask:
+    linear-gradient(white 0 0) padding-box,
+    linear-gradient(white 0 0);
+  mask-composite: exclude;
+
+  -webkit-mask:
+    linear-gradient(white 0 0) padding-box,
+    linear-gradient(white 0 0);
+  -webkit-mask-composite: xor;
+}
+
+/* ==========================================
+   Generic Backdrop Blur - Header
+========================================== */
+
+.backdrop-blur-layer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* ==========================================
+   Generic Indigo Border
+========================================== */
+
+.gradient-border-indigo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  pointer-events: none;
+
+  background: linear-gradient(
+      to bottom,
+      rgb(from var(--color-indigo-500) r g b / 0),
+      rgb(from var(--color-indigo-500) r g b / 0.5)
+    )
+    border-box;
+
+  mask:
+    linear-gradient(white 0 0) padding-box,
+    linear-gradient(white 0 0);
+  mask-composite: exclude;
+
+  -webkit-mask:
+    linear-gradient(white 0 0) padding-box,
+    linear-gradient(white 0 0);
+  -webkit-mask-composite: xor;
+}
+
+/* ==========================================
+   Generic Background Hover Animation
+========================================== */
+
+.bg-hover-expand {
+  background-position: bottom;
+  background-size: 100% 100%;
+  transition: background-size 200ms ease;
+}
+
+.bg-hover-expand:hover {
+  background-size: 100% 150%;
+}
